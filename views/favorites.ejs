@@ -1,0 +1,22 @@
+<%- include('partials/header.ejs') %>
+
+    <body>
+        <a id="searchLink" href="/">Back to Search</a>
+        
+        <div class="banner">
+            <h1>Favorite Pics</h1>
+        </div>
+        
+        <% rows.forEach(function(row){ %>
+        
+            <a class="keywordLink"><%=row['keyword'] %></a>
+        
+        <% }) %>
+    
+        <hr>
+        
+        <div id="favorites">
+            
+        </div>
+
+<%- include('partials/footer.ejs') %>

@@ -1,0 +1,86 @@
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    font-size: 2.5em;
+}
+
+input, button {
+    font-size: 1.3em;
+}
+
+main {
+    background-color: rgba(0,0,0,0.75);
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
+h1 {
+    color: silver;
+}
+
+#favLink, #searchLink {
+    background-color: rgba(250,250,250,0.75);
+    color:blue;
+    font-size: 0.8em;
+    padding: 7px;
+    border-radius: 4px;
+}
+
+.image {
+    border-radius: 20px;
+}
+
+#imageContainer {
+    background-color: rgba(250,250,250,0.75);
+    padding: 15px;
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.imageContainer {
+    display: inline-block;
+}
+
+#favHeader {
+    background-color: rgba(0.0.0.0.75);
+    color: silver;
+    width: 50%;
+    border-radius: 25px;
+    margin: 0 auto;
+}
+
+.banner {
+    background-color: rgba(0,0,0,0.75);
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.keywordLink {
+    background-color: rgba(0,0,0,0.75);
+    color: silver;
+    border-radius: 7px;
+    padding: 10px;
+    font-size: .7em;
+    border: solid green 3px;
+    transition-duration: .75s;
+}
+
+.keywordLink:hover {
+    background-color: rgba(255,255,255,0.75);
+    color: black;
+}
+
+#favorites {
+    background-color: rgba(250,250,250,0.75);
+    padding: 15px;
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 8px;
+    margin-top: 20px;
+}
